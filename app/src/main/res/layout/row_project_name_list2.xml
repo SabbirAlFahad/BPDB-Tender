@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:text="PROJECT NAME:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"/>
+
+
+            <TextView
+                android:id="@+id/proj_Pname"
+                android:textColor="@color/colorPink"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:text="PROJECT ID:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"/>
+
+
+            <TextView
+                android:id="@+id/proj_pId"
+                android:textColor="@color/colorPink"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

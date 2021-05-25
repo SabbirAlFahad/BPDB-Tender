@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#185A9A"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_panel"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center|start">
+
+            <ImageView
+                android:id="@+id/pdb_logo"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent"
+                android:background="@drawable/promo"
+                android:gravity="center|start"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center|start">
+
+                <TextView
+                    android:id="@+id/txt_welcome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="WELCOME"
+                    android:gravity="center|start"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/aldrich"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="25"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:outlineAmbientShadowColor="@color/colorBlue"
+                android:outlineSpotShadowColor="@color/colorBlack"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/btn_bg">
+
+                    <Button
+                        android:id="@+id/btn_tinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/tender_info"/>
+
+                    <TextView
+                        android:id="@+id/txt_tinfo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:text="PACKAGE INFORMATION"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBlue"
+                        android:fontFamily="@font/aldrich" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:outlineAmbientShadowColor="@color/colorBlue"
+                android:outlineSpotShadowColor="@color/colorBlack"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/btn_bg">
+
+                    <Button
+                        android:id="@+id/btn_tcompany"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/tcompany"/>
+
+                    <TextView
+                        android:id="@+id/txt_tcompany"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:text="LIST OF SUPPLIERS"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBlue"
+                        android:fontFamily="@font/aldrich" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+                <LinearLayout
+                    android:outlineAmbientShadowColor="@color/colorBlue"
+                    android:outlineSpotShadowColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:padding="2dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/btn_bg">
+
+                    <Button
+                        android:id="@+id/btn_tclosing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/expiry"/>
+
+                    <TextView
+                        android:id="@+id/txt_tclosing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:text="TENDER CLOSING LIST"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBlue"
+                        android:fontFamily="@font/aldrich" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:outlineAmbientShadowColor="@color/colorBlue"
+                android:outlineSpotShadowColor="@color/colorBlack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/btn_bg">
+
+                    <Button
+                        android:id="@+id/btn_tcontract"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/tcontract"/>
+
+                    <TextView
+                        android:id="@+id/txt_tcontract"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:text="CONTRACT LIST"
+                        android:gravity="center|start"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBlue"
+                        android:fontFamily="@font/aldrich" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="3dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_bg"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="60"
+                    android:elevation="15dp"
+                    android:background="@drawable/logout"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp" />
+
+                <TextView
+                    android:id="@+id/txt_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:text="LOGOUT"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorBlue"
+                    android:shadowColor="@color/colorBtn"
+                    android:fontFamily="@font/aldrich" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="80"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center|end"
+                    android:text="Powered By"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/txt_itbl"/>
+
+                <ImageView
+                    android:id="@+id/itbl_logo"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:gravity="center|start"
+                    android:background="@drawable/itbl"
+                    android:layout_marginTop="2dp"
+                    android:elevation="8dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="92dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

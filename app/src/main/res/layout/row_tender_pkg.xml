@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:background="@color/colorBlue"
+    android:gravity="center">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_tender_pkg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:background="@color/colorBlue"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+
+
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:text="ESTIMATE COST:"
+        android:gravity="center|start"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/estimate_cost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:background="@drawable/border_table"
+        android:textColor="@android:color/white" />
+    </TableRow>
+
+
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="SOURCE OF FUND:"
+            android:gravity="center|start"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/sf_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:background="@drawable/border_table"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="CURRENCY NAME:"
+            android:gravity="center|start"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/CURR_NAME"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/border_table"
+            android:textSize="12sp"
+            android:textColor="@android:color/white" />
+    </TableRow>
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="DIVISION:"
+            android:gravity="center|start"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/DIV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/border_table"
+            android:textSize="12sp"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:text="DISTRICT:"
+        android:gravity="center|start"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/DIST"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:background="@drawable/border_table"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+    </TableRow>
+
+
+    <TableRow
+        android:background="#219ebc"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="THANA:"
+            android:gravity="center|start"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/THANA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:background="@drawable/border_table"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:background="#00509d"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="5"/>
+
+</TableLayout>
+</LinearLayout>

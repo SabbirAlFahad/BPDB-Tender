@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:background="@color/colorBtn"
+    android:gravity="center">
+
+    <TableLayout
+        android:id="@+id/table_tender_pkg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:background="#284b63"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"/>
+
+
+        </TableRow>
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="SUPPLIER NAME:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/sup_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textSize="10sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="PACKAGE NAME:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/package_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textSize="10sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="BANK NAME:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/bank_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textSize="10sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="BRANCH NAME:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/brach_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textSize="10sp"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:gravity="center|start"
+                android:text="PRICE:"
+                android:textColor="@android:color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="CURRENCY NAME:"
+                android:gravity="center|start"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/currency_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="TENDER SECURITY VALUE:"
+                android:gravity="center|start"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/ts_value"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="TENDER SECURITY REFERENCE NUMBER:"
+                android:gravity="center|start"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/ts_ref"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="ISSUE DATE:"
+                android:gravity="center|start"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/issue_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="EXPIRY DATE:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/expiry_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="REFERENCE NO:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/ref_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="REFERENCE DATE:"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/ref_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/border_table"
+                android:textColor="@android:color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#219ebc"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+        B<TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="BI-DESC:"
+            android:gravity="center|start"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/bi_desc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:background="@drawable/border_table"
+            android:textColor="@android:color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:background="#284b63"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="10">
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

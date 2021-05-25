@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:weightSum="100">
+
+    <TableLayout
+        android:id="@+id/table_tender_pkg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="#284b63"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="CONTRACT DETAILS"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="#0081a7"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_weight="25"
+                android:gravity="center|start"
+                android:text="TENDER NAME"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tender_locdetails_name_header"
+                android:layout_width="0dp"
+                android:layout_weight="75"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:gravity="center|start"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorWhite"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Currency Type"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_currType"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract Price"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract Value"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_value"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract No."
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_No"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract Issue Date"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_issueD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorPink" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract Type"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_type"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Package Details"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_pkgDetails"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Bank Name"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_bankName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract REF. NO."
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_RefNo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Supplier Name"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_suppName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Security Information"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_securityInfo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Contract Date"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_Date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Branch Name"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_branchName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="Expiry Date"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/contract_expiryD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#0081a7"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3"/>
+
+    </TableLayout>
+
+</LinearLayout>

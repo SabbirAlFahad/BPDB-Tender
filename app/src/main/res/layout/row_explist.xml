@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:id="@+id/view_tname"
+                android:text="TENDER ID"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPink"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent"
+                android:layout_weight="30"/>
+
+
+            <TextView
+                android:id="@+id/show_tname"
+                android:textColor="@color/colorPink"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:background="@drawable/edit_text_blue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:id="@+id/view_expcname"
+                android:text="COMPANY NAME"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPink"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent"
+                android:layout_weight="30"/>
+
+
+            <TextView
+                android:id="@+id/show_expcname"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:background="@drawable/edit_text_blue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="@drawable/edit_text_blue">
+
+            <TextView
+                android:id="@+id/view_expiryD"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent"
+                android:text="EXPIRE ON"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@drawable/edit_text_blue"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/show_expiryD"
+                android:layout_width="0dp"
+                android:layout_weight="30"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="10sp"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/view_proID"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent"
+                android:text="PROJECT ID"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/show_proID"
+                android:layout_width="0dp"
+                android:layout_weight="30"
+                android:textColor="@color/colorBlack"
+                android:textSize="8sp"
+                android:gravity="center"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:background="@drawable/edit_text_blue">
+
+        <TextView
+            android:id="@+id/view_expcurr"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:text="CURRENCY NAME"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:background="@drawable/edit_text_blue"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/show_expcurr"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="10sp"
+            android:background="@drawable/edit_text_blue"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/view_openD"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:background="@drawable/edit_text_blue"
+            android:layout_height="match_parent"
+            android:text="OPEN DATE"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="10sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/show_openD"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:textColor="@color/colorBlack"
+            android:textSize="8sp"
+            android:gravity="center"
+            android:background="@drawable/edit_text_blue"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:background="@drawable/edit_text_blue">
+
+            <TextView
+                android:id="@+id/view_exprefno"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent"
+                android:text="REF. NO."
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@drawable/edit_text_blue"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/show_exprefno"
+                android:layout_width="0dp"
+                android:layout_weight="30"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="10sp"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/view_expstat"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent"
+                android:text="STATUS"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/show_expstat"
+                android:layout_width="0dp"
+                android:layout_weight="30"
+                android:textColor="@color/colorBlack"
+                android:textSize="8sp"
+                android:gravity="center"
+                android:background="@drawable/edit_text_blue"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

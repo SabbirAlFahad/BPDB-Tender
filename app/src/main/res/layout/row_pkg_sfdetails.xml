@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:background="#edf6f9"
+    android:gravity="center">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/table_tender_pkg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:background="#0081a7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="8">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SF DETAILS"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="#284b63"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent"
+                android:text="TENDER NAME"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="center|start"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:id="@+id/tender_locdetails_name_header"
+                android:layout_width="0dp"
+                android:layout_weight="75"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:gravity="center|start"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorWhite"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="PACKAGE NAME"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="SF CODE"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_sfcode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+
+        </TableRow>
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="DA CODE"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_dacode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorPink" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="CURRENCY CODE"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_curcode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="STATUS"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_status"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="CREATE DATE"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_cdate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="CREATED BY"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_createdby"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_table"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center|start"
+                android:textSize="14sp"
+                android:text="UPDATE BY"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlue" />
+
+            <TextView
+                android:id="@+id/tender_sfdetails_pkg_updatedby"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/border_table"
+                android:textColor="@color/colorBlue" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#284b63"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3"/>
+
+    </TableLayout>
+</LinearLayout>
