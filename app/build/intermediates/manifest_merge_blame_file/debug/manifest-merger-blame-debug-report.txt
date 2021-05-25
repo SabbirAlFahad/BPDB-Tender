@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.itbl.bpdbtender"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:8:5-65
+13-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:8:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:10:22-77
+16
+17    <application
+17-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:12:5-46:19
+18        android:allowBackup="true"
+18-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2c4911487622891b7d804fc82995f4ba\core-1.2.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/promo"
+21-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:14:9-39
+22        android:label="@string/app_name"
+22-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:15:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+26-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:18:9-76
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:19:9-44
+28        <activity android:name="com.itbl.bpdbtender.Splash" >
+28-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:23:9-29:20
+28-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:23:19-41
+29            <intent-filter>
+29-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:24:13-28:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:25:17-69
+30-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:25:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:27:17-77
+32-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:27:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.itbl.bpdbtender.LoginActivity" />
+35-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:31:9-51
+35-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:31:19-48
+36        <activity android:name="com.itbl.bpdbtender.MainActivity" />
+36-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:32:9-50
+36-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:32:19-47
+37        <activity android:name="com.itbl.bpdbtender.ContractListView" />
+37-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:33:9-54
+37-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:33:19-51
+38        <activity android:name="com.itbl.bpdbtender.Dashboard" />
+38-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:34:9-47
+38-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:34:19-44
+39        <activity android:name="com.itbl.bpdbtender.ExpireTenderList" />
+39-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:35:9-54
+39-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:35:19-51
+40        <activity android:name="com.itbl.bpdbtender.ProjectNameView" />
+40-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:36:9-53
+40-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:36:19-50
+41        <activity android:name="com.itbl.bpdbtender.ProjectDetailView" />
+41-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:37:9-55
+41-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:37:19-52
+42        <activity android:name="com.itbl.bpdbtender.TenderPkgInfoListView" />
+42-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:38:9-59
+42-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:38:19-56
+43        <activity android:name="com.itbl.bpdbtender.ProjectNameView2" />
+43-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:39:9-54
+43-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:39:19-51
+44        <activity android:name="com.itbl.bpdbtender.SupplierListView" />
+44-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:40:9-54
+44-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:40:19-51
+45
+46        <meta-data
+46-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:43:9-45:57
+47            android:name="preloaded_fonts"
+47-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:44:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->C:\Users\User\AndroidStudioProjects\BPDBTender\app\src\main\AndroidManifest.xml:45:13-54
+49
+50        <activity
+50-->[com.karumi:dexter:6.2.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b97cd3f473dbdc3b1601993450edc42\dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+51            android:name="com.karumi.dexter.DexterActivity"
+51-->[com.karumi:dexter:6.2.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b97cd3f473dbdc3b1601993450edc42\dexter-6.2.2\AndroidManifest.xml:28:13-60
+52            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+52-->[com.karumi:dexter:6.2.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b97cd3f473dbdc3b1601993450edc42\dexter-6.2.2\AndroidManifest.xml:29:13-69
+53    </application>
+54
+55</manifest>
